@@ -3,6 +3,7 @@ import Homepage from './pages/Homepage';
 import Playerone from './pages/Playerone';
 import Playertwo from './pages/Playertwo';
 import Gamepage from './pages/Gamepage';
+import Highscores from './pages/Highscores';
 import './App.scss'
 
 function App() {
@@ -15,6 +16,7 @@ return (
       <Route path="/playerone" component={Playerone}/>
       <Route path="/playertwo" component={Playertwo}/>
       <Route path="/gamepage" component={Gamepage}/>
+      <Route path='/highscores' component={Highscores}/>
     </Switch>
   </BrowserRouter>
 
