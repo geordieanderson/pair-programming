@@ -1,0 +1,70 @@
+.home {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E6EBE0;
+    width: 100%;
+    height: 100vw;
+    
+        &__title{
+            font-size: 100px;
+            color: #81B29A;
+            margin-right: auto;
+            margin-left: auto;
+            text-align:center;
+            transform: skew(-10deg);
+            transition: all 4s;
+            }
+    
+        &__title:hover{
+            transform: skew(15deg);
+            cursor: pointer;
+        }
+    
+        &__button {
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 100px;
+        height: 45px;
+        width: 200px;
+        border: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 100px;
+    }
+    
+        &__button:hover {
+            background-color: grey;
+            cursor: pointer;
+        }
+    
+        .wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0;
+      animation-duration: 3s;
+      animation-name: slide;
+    }
+    
+    .chip {
+      width: 60px;
+      height: 60px;
+      border-radius: 100px;
+      margin: 0 10px;
+      background-color: red;
+    }
+    
+    @keyframes slide {
+      from {
+        margin-left: 100%;
+        width: 300%;
+      }
+    
+      75% {
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%;
+      }
+    }
+    }
