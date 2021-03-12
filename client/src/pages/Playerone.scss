@@ -1,0 +1,40 @@
+.page1{
+    background-color: lightblue;
+    padding: 2rem;
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__label{
+        padding: 1rem;
+    }
+
+    &__name{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+        height: 50px;
+        width: 250px;
+        padding: 1rem 0rem;
+        font-family: 'Press Start 2P';
+        font-size: 0.5rem;
+    }
+
+    &__button{
+        height: 50px;
+        width: 150px;
+        margin: 1rem 0rem;
+        background-color: lightslategrey;
+        font-family: 'Press Start 2P';
+        font-weight: bold;
+
+        &:hover{
+            background-color: darkslategray;
+        }
+    }
+}
